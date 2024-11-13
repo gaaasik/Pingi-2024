@@ -1,0 +1,22 @@
+/VPN_BOT.zip
+/tests
+/configs/base_configs
+# Игнорирование виртуальных окружений
+venv/
+.venv/
+configs/registered_user
+# Игнорирование файлов окружения
+*.env
+vpn_bot.db
+logs/bot.log
+
+# Игнорируем файлы настроек IDE
+.idea/
+
+# Игнорируем скомпилированные файлы Python
+__pycache__/
+*.pyc
+
+# Игнорируем архивы и логи
+*.zip
+logs/*.log
